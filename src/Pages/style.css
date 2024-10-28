@@ -1,0 +1,52 @@
+/* MainPage.css */
+.main-page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .content-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .description-section,
+  .audio-section,
+  .video-section,
+  .activity-section {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .description-section h2,
+  .audio-section h2,
+  .video-section h2,
+  .activity-section h2 {
+    color: #0056b3;
+  }
+  
+  .images img {
+    width: 50px;
+    margin-right: 10px;
+  }
+  
+  /* ActivityPage.css */
+  .activity-page {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .columns {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .column-a,
+  .column-b {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 45%;
+    border-radius: 5px;
+  }
+  
